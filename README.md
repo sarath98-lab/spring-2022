@@ -1,10 +1,8 @@
 # spring-2022
-My details:
-Name - Sarath Chandra Kolisetty,
-ID - 16322286,
-email - sk83g@umsystem.edu
 
-Teammate details:
-Name - Eeshwara Sai Tota,
-ID - 16320001,
-email - ettkv@umsystem.edu
+### Sarath Chandra Kolisetty
+sk83g@umsystem.edu
+
+### Eeshwara Sai Tota
+ettkv@umsystem.edu
+
