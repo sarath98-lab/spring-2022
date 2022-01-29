@@ -1,0 +1,35 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topic {
+  padding-left: 100px;
+  font-family: monospace;
+  font-size: 30px;
+  color: blue;
+}
+
+.content {
+  padding-left: 150px;
+  font-family: monospace;
+  font-size: 25px;
+  color: black;
+}
+
+.bullet-points {
+  padding-left: 200px;
+  font-family: Arial;
+  font-size: 20px;
+  color: green;
+}
+
+.video {
+  margin-top: 20px;
+}
+
+.red {
+  color: red;
+  font-size: 28px;
+}
