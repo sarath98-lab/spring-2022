@@ -1,0 +1,34 @@
+.name{
+  color: #747704;
+  font-display: Rambla;
+  font-size: 350%;
+  text-align: right;
+}
+.designation{
+  color: #bcbbbb;
+  font-size: 120%;
+  text-align: right;
+}
+.featuredwork{
+  color: #bcbbbb;
+  font-size: xx-large;
+  text-align: left;
+}
+.appname{
+  text-align: center;
+  color:#747704;
+}
+.appimage{
+  height: 150px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.link{
+  text-align: center;
+  color: #bcbbbb;
+}
+.linkc{
+  color: #bcbbbb;
+}
