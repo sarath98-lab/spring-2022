@@ -1,0 +1,18 @@
+h1,
+div,
+img {
+  display: flex;
+  justify-content: center;
+}
+
+#weapon1 {
+  padding-right: 250px;
+}
+
+.fight {
+  font-size: 50px;
+}
+
+.play {
+  font-size: 25px;
+}
