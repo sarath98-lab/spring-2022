@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <div class="play">Click on any weapon to play!</div>
+
+    <!-- UI image which has 3 Icons Rock Paper Scissors -->
+    <div><img src="./RPS.png" alt="Image with Rock Paper Scissors" usemap="#rps"></div>
+    
+    <!-- Particular areas in image are mapped to certain weapons based on mouse click -->
+    <map name="rps">
+        <area shape="rect" onclick="playGame(0)" coords="142, 39, 345, 243" alt="Rock">
+        <area shape="rect" onclick="playGame(1)" coords="42, 255, 246, 459," alt="Paper">
+        <area shape="rect" onclick="playGame(2)" coords="259, 255, 463, 459" alt="Scissors">
+    </map>
+
+    <div class="fight">Human weapon VS Bot weapon</div>
+    
+    <!-- Div tags with ids match, result inner context is updated by java script based on game outcome -->
+    <div id="match" class="fight"></div>
+    <div id="result" class="fight"></div>
+</body>
+</html>
