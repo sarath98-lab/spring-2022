@@ -1,0 +1,44 @@
+.mr-10 {
+  margin-right: 10px;
+}
+
+.pt-10 {
+  padding-top: 10px;
+}
+
+.btn-primary {
+  background-color: #d2ba13;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.todos {
+  width: 50%;
+  padding: 10px 80px;
+  margin: 20px auto;
+  margin-top: 200px;
+  color: blue;
+}
+
+.delete {
+  float: right;
+}
+
+.completed {
+  text-decoration: line-through !important;
+  color: green;
+}
+
+.list-card {
+  padding: 1px;
+}
+
+.list-item-card {
+  list-style: none;
+  border: 1px solid red;
+  padding: 10px 14px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
