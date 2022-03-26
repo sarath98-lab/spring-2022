@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context="com.example.vijaya.myorder.MainActivity">
+
+        <EditText
+            android:id="@+id/user_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="26sp"
+            android:hint="Please enter your name"
+            android:inputType="textCapWords"
+            android:textColor="#AAAAAA"
+            android:textColorHint="#AAAAAA" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16sp"
+            android:hint="Please enter your Email"
+            android:inputType="textCapWords"
+            android:textColor="#AAAAAA"
+            android:textColorHint="#AAAAAA" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_width="113dp"
+            android:layout_height="55dp"
+            android:text="Toppings"
+            android:textColor="#AAAAAA" />
+
+        <CheckBox
+            android:id="@+id/chicken"
+            android:layout_width="136dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="16sp"
+            android:buttonTint="#AAAAAA"
+            android:paddingLeft="24dp"
+            android:text="Chicken"
+            android:textColor="#AAAAAA"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/cheese"
+            android:layout_width="194dp"
+            android:layout_height="53dp"
+            android:layout_marginBottom="16sp"
+            android:buttonTint="#AAAAAA"
+            android:paddingLeft="24dp"
+            android:text="Cheese"
+            android:textColor="#AAAAAA"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/tomatoes"
+            android:layout_width="159dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="16sp"
+            android:buttonTint="#AAAAAA"
+            android:paddingLeft="24dp"
+            android:text="Tomatoes"
+            android:textColor="#AAAAAA"
+            android:textSize="16sp" />
+
+        <CheckBox
+            android:id="@+id/mushrooms"
+            android:layout_width="171dp"
+            android:layout_height="56dp"
+            android:layout_marginBottom="16sp"
+            android:buttonTint="#AAAAAA"
+            android:paddingLeft="24dp"
+            android:text="Mushrooms"
+            android:textColor="#AAAAAA"
+            android:textSize="16sp" />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:layout_width="111dp"
+            android:layout_height="55dp"
+            android:text="Quantity"
+            android:textColor="#AAAAAA" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="#FFC107"
+                android:onClick="decrement"
+                android:text="-" />
+
+            <TextView
+                android:id="@+id/quantity_text_view"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:text="1"
+                android:textColor="#00FB04" />
+
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:backgroundTint="#FFC107"
+                android:onClick="increment"
+                android:text="+" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/orderbtn"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="8dp"
+                android:backgroundTint="#2196F3"
+                android:text="Order" />
+            <!--            android:onClick="sendEmail"-->
+
+            <Button
+                android:id="@+id/summarybtn"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:backgroundTint="#2196F3"
+                android:onClick="submitOrder"
+                android:text="Summary" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
