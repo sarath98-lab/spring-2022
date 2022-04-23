@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTTS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text to speech"
+        android:textSize="35dp"
+        android:textColor="#FF0020"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints"/>
+    <EditText
+        android:id="@+id/editTextTTS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Enter Your Text"
+        android:layout_below="@+id/textViewTTS"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints"
+        android:textSize="35dp"
+        />
+    <Button
+        android:id="@+id/btnTTS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTTS"
+        android:text="speak"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints"
+        />
+
+</RelativeLayout>
